@@ -1,78 +1,68 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777;
-    background-color: #777;
-    font-size: 18px;
+    background: lightgray;
+    margin: 0;
     width: 960px;
-    max-width: 960px;
-    margin: auto;
-
+    font-weight: 300px;
+    position: center;
 }
 
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
 header {
-    background-color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 10%;
-    width: 960px;
-    padding: 0%;
-    
+    background: white;
+}
+header::after {
+    content: " ";
+    display: table;
+    clear: both;
 
 }
 
-.topnav {
-    overflow: hidden;
-    float: right;
-    margin: 0%;
-    text-align: center;
-    padding: 0%;
+h1 {
+    float: left;
+    padding: 10 0;
     
 }
 
 nav {
-    background-color: #ebebeb;
     float: right;
-    overflow: hidden;
-    top: 0%;
+}
+nav ul {
     margin: 0%;
     padding: 0%;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px;
 }
 
-#about {
-    float: right;
-
-}
-#portfolio {
-    float: right;
-}
-#Contact {
-    float: right
-}
-
-section { clear: both;
-    background-color: #ebebeb;
-    width: 495px;
-    position: center;
-    height: 450px;
-
+nav a {
+    color: #777777;
+    text-decoration: none;
 
 }
 
-.aboutme {
-    margin: 0%;
+nav a:hover {
+    color: teal;
 }
 
+#full { 
+   
+    padding: 200px;
+    margin: 30px;
+    background: #ffffff
+
+}
+
+aside {
+
+}
 
 footer {
-    background-color: #666666;
-    width: 320px;
-    clear: both;
-    width: 960px;
-
+    height: 30px;
+    
 }
-
-article {
-    background-color: #ebebeb;
-    color: #777
-}
-
-
